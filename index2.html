@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Modern Business - Start Bootstrap Template</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="css/styles.css" rel="stylesheet" />
+</head>
+
+<body class="d-flex flex-column h-100">
+    <header>
+        <nav class="navbar navbar-dark bg-dark navbar-expand-lg no-print">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">SICS</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle " href="#" id="navbarDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                GARANTIA
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li class="nav-item"><a class="dropdown-item" href="#">OCORRÊNCIAS
+                                        CONSUMIDOR</a></li>
+                                <li class="nav-item"><a class="dropdown-item" href="#">RASTREABILIDADE</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle " href="#" id="navbarDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                LABORATORIO
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">ESPECIFICAÇÕES DE PRODUTOS</a>
+                                </li>
+
+                                <li><a class="dropdown-item" href="#">ESPECIFICAÇÕES DE INSUMOS</a>
+                                </li>
+                                <li><a class="dropdown-item" href="#">INSPEÇÕES DE PRODUÇÃO</a></li>
+                                <li><a class="dropdown-item" href="#">INSPEÇÕES DE
+                                        EMBALAGENS</a></li>
+                                <li><a class="dropdown-item" href="#">INSPEÇÕES DE MATÉRIAS
+                                        PRIMAS</a></li>
+                                <li><a class="dropdown-item" href="#">CONTROLE DE PROCEDIMENTOS</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle " href="#" id="navbarDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                PRODUÇÃO
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li class="nav-item"><a class="dropdown-item" href="#">VISÃO GERAL</a>
+                                </li>
+                                <li class="nav-item"><a class="dropdown-item" href="#">CONTROLE E
+                                        PLANEJAMENTO</a></li>
+                                <li class="nav-item"><a class="dropdown-item" href="#">WMS
+                                        FILIAIS</a></li>
+                                <li class="nav-item"><a class="dropdown-item" href="#">ORDENS DE
+                                        PRODUÇÃO</a></li>
+                                <li class="nav-item"><a class="dropdown-item" href="#">EQUIPAMENTOS</a></li>
+                                <li>
+                                    <hr class="my-0 py-0">
+                                </li>
+                                <li class="nav-item"><a class="dropdown-item" href="#">PMP
+                                        I</a></li>
+                                <li class="nav-item"><a class="dropdown-item" href="#">PLANEJAMENTO DA DEMANDA</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle " href="#" id="navbarDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                PRODUTOS
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li class="nav-item"><a class="dropdown-item" href="#">CATALOGO</a></li>
+                                <li class="nav-item"><a class="dropdown-item" href="#">FICHA TÉCNICA</a>
+                                </li>
+                                <li>
+                                    <hr class="my-0 py-0">
+                                </li>
+                                <li class="nav-item"><a class="dropdown-item" href="#">EQUIPAMENTOS</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle " href="#" id="navbarDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                INSUMOS
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li class="nav-item"><a class="dropdown-item" href="#">ESTOQUE MATERIA PRIMA</a>
+                                </li>
+                                <li class="nav-item"><a class="dropdown-item" href="#">CONTROLE
+                                        DE VALIDADES</a></li>
+                                <li><a class="dropdown-item" href="#">RECEBIMENTOS</a></li>
+                                <li class="nav-item"><a class="dropdown-item" href="#">LISTAGEM</a>
+                                </li>
+                                <li>
+                                    <hr class="my-0 py-0">
+                                </li>
+                                <li class="nav-item"><a class="dropdown-item" href="#">LIBERAÇÃO DE VOLUMES</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle " href="#" id="navbarDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                COMPRAS
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li class="nav-item"><a class="dropdown-item" href="#">GESTÃO PREÇOS</a>
+                                </li>
+                                <li class="nav-item"><a class="dropdown-item" href="#">PMP-II</a></li>
+                                <li class="nav-item"><a class="dropdown-item" href="#">ORÇAMENTOS</a></li>
+                                <li>
+                                    <hr class="my-0 py-0">
+                                </li>
+                                <li><a class="dropdown-item" href="#">CONFERÊNCIA DE ENTRADAS</a></li>
+                                <li><a class="dropdown-item" href="#">FORNECEDORES</a></li>
+
+                            </ul>
+                        </li>
+
+                        <li><a class="nav-link" href="#">MANUTENÇÃO</a></li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle " href="#" id="navbarDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                ADMINISTRAÇÃO
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li class="nav-item"><a class="dropdown-item" href="#">USUARIOS</a></li>
+                                <li class="nav-item"><a class="dropdown-item" href="#">ROLES</a></li>
+                                <li class="nav-item"><a class="dropdown-item" href="#">CLAIMS</a></li>
+                                <li class="nav-item"><a class="dropdown-item" href="#">PATRIMONIOS</a></li>
+                                <li class="nav-item"><a class="dropdown-item" href="#">LOGS</a></li>
+                            </ul>
+                        </li>
+
+                    </ul>
+
+                    <form action="/Account/LogOff" class="navbar-nav ms-auto" id="logoutForm" method="post"><input
+                            name="__RequestVerificationToken" type="hidden"
+                            value="hCK5eGS2JCYycScs2SEtxa5nmgPPNXdZiUiWS9ZhxJn7kDFhY1fOgsPk-IBCGnxjdutcE0ivwzfgmOs7gqQNNHWD8au-KvsLwsacEguZj5FgTTy9Dw-yXskMaLZ9Lx-JvvGChKUHT_ue24qQe-jwHQ2">
+                        <li class="nav-item">
+                            <span class="nav-link"></span>
+                        </li>
+                        <li><a class="nav-link" href="#" title="Home">BI</a></li>
+                        <li><a class="nav-link" href="#" title="Tablets">TABLET</a></li>
+                        <li><a class="nav-link" href="#" title="Manage"></a></li>
+                        <li><a class="nav-link text-warning" href="#">SAIR</a></li>
+                    </form>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+    <header class="bg-dark py-5">
+        <div class="container px-5">
+            <div class="row gx-5 align-items-center justify-content-center">
+                <div class="col-lg-8 col-xl-7 col-xxl-6">
+                    <div class="my-5 text-center text-xl-start">
+                        <h1 class="display-5 fw-bolder text-white mb-2">LISTAGEM DE PRODUTOS</h1>
+                        <p class="lead fw-normal text-white-50 mb-4">
+                            Aqui você encontra todas as categorias e produtos que trabalhamos, organizados de forma
+                            clara para facilitar sua visualização.
+                        </p>
+                        <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-start">
+                            <a class="btn btn-outline-light btn-lg px-4" href="#features">VER CATÁLOGO</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-5 col-xxl-6 d-none d-xl-block text-center">
+                    <img class="img-fluid rounded-3 my-5" src="/assets/softbio-png.png" alt="..." />
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="fw-bolder mb-3">CATEGORIAS</h2>
+                <p class="lead fw-normal text-muted">Veja todas as categorias</p>
+            </div>
+
+            <div id="carouselCategorias" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselCategorias" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselCategorias" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                </div>
+
+                <div class="carousel-inner py-5">
+                    <div class="carousel-item active">
+                        <div class="row g-4 justify-content-center">
+                            <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+                                <div class="text-center h-100">
+                                    <div class="position-relative mb-3">
+                                        <img class="img-fluid rounded-circle shadow-sm w-100"
+                                            src="https://softhair.com.br/wp-content/uploads/2018/12/Manteiga-Abacate-e-Aveia-416x416.png"
+                                            alt="Manteigas">
+                                    </div>
+                                    <h5 class="fw-bold mb-2">MANTEIGAS</h5>
+                                    <a href="#" class="text-decoration-none text-primary">Ver sessão →</a>
+                                </div>
+                            </div>
+
+                            <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+                                <div class="text-center h-100">
+                                    <div class="position-relative mb-3">
+                                        <img class="img-fluid rounded-circle shadow-sm w-100"
+                                            src="https://softhair.com.br/wp-content/uploads/2021/10/1828-416x416.png"
+                                            alt="Shampoos">
+                                    </div>
+                                    <h5 class="fw-bold mb-2">SHAMPOOS</h5>
+                                    <a href="#" class="text-decoration-none text-primary">Ver sessão →</a>
+                                </div>
+                            </div>
+
+                            <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+                                <div class="text-center h-100">
+                                    <div class="position-relative mb-3">
+                                        <img class="img-fluid rounded-circle shadow-sm w-100"
+                                            src="https://softhair.com.br/wp-content/uploads/2025/03/Esfoliante-Pitaya-rosa-180g-416x416.png"
+                                            alt="Esfoliantes">
+                                    </div>
+                                    <h5 class="fw-bold mb-2">ESFOLIANTES</h5>
+                                    <a href="#" class="text-decoration-none text-primary">Ver sessão →</a>
+                                </div>
+                            </div>
+
+                            <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+                                <div class="text-center h-100">
+                                    <div class="position-relative mb-3">
+                                        <img class="img-fluid rounded-circle shadow-sm w-100"
+                                            src="https://softhair.com.br/wp-content/uploads/2018/12/Másc-Viajei-na-Maionese_285x285.png"
+                                            alt="Maioneses">
+                                    </div>
+                                    <h5 class="fw-bold mb-2">MAIONESES</h5>
+                                    <a href="#" class="text-decoration-none text-primary">Ver sessão →</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="row g-4 justify-content-center">
+                            <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+                                <div class="text-center h-100">
+                                    <div class="position-relative mb-3">
+                                        <img class="img-fluid rounded-circle shadow-sm w-100"
+                                            src="https://softhair.com.br/wp-content/uploads/2021/10/1828-416x416.png"
+                                            alt="Condicionadores">
+                                    </div>
+                                    <h5 class="fw-bold mb-2">CONDICIONADORES</h5>
+                                    <a href="#" class="text-decoration-none text-primary">Ver sessão →</a>
+                                </div>
+                            </div>
+
+                            <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+                                <div class="text-center h-100">
+                                    <div class="position-relative mb-3">
+                                        <img class="img-fluid rounded-circle shadow-sm w-100"
+                                            src="https://softhair.com.br/wp-content/uploads/2025/03/Esfoliante-Pitaya-rosa-180g-416x416.png"
+                                            alt="Óleos">
+                                    </div>
+                                    <h5 class="fw-bold mb-2">ÓLEOS</h5>
+                                    <a href="#" class="text-decoration-none text-primary">Ver sessão →</a>
+                                </div>
+                            </div>
+
+                            <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+                                <div class="text-center h-100">
+                                    <div class="position-relative mb-3">
+                                        <img class="img-fluid rounded-circle shadow-sm w-100"
+                                            src="https://softhair.com.br/wp-content/uploads/2018/12/Másc-Viajei-na-Maionese_285x285.png"
+                                            alt="Cremes">
+                                    </div>
+                                    <h5 class="fw-bold mb-2">CREMES</h5>
+                                    <a href="#" class="text-decoration-none text-primary">Ver sessão →</a>
+                                </div>
+                            </div>
+
+                            <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+                                <div class="text-center h-100">
+                                    <div class="position-relative mb-3">
+                                        <img class="img-fluid rounded-circle shadow-sm w-100"
+                                            src="https://softhair.com.br/wp-content/uploads/2018/12/Manteiga-Abacate-e-Aveia-416x416.png"
+                                            alt="Finalizadores">
+                                    </div>
+                                    <h5 class="fw-bold mb-2">FINALIZADORES</h5>
+                                    <a href="#" class="text-decoration-none text-primary">Ver sessão →</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselCategorias"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon bg-dark rounded-circle p-3" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselCategorias"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon bg-dark rounded-circle p-3" aria-hidden="true"></span>
+                    <span class="visually-hidden">Próximo</span>
+                </button>
+            </div>
+        </div>
+    </section>
+    <section class="py-5 bg-dark text-white" id="features">
+        <div class="container px-5 my-5">
+            <div class="row gx-5">
+                <div class="col-lg-3 mb-5 mb-lg-0 align-content-center">
+                    <h2 class="fw-bolder mb-0">CATEGORIAS</h2>
+                </div>
+                <div class="col-lg-8">
+                    <div class="row gx-5 row-cols-1 row-cols-md-2">
+                        <div class="col mb-5 h-100">
+                            <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3">
+                                <i class="bi bi-collection"></i>
+                            </div>
+                            <h2 class="h5">MANTEIGAS</h2>
+                            <p class="mb-0">
+                                Produtos desenvolvidos para nutrir profundamente os fios, oferecendo hidratação
+                                intensa e brilho duradouro. Ideais para tratamentos capilares no dia a dia.
+                            </p>
+                        </div>
+                        <div class="col mb-5 h-100">
+                            <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3">
+                                <i class="bi bi-building"></i>
+                            </div>
+                            <h2 class="h5">DEFRIZANTES</h2>
+                            <p class="mb-0">
+                                Fórmulas voltadas para reduzir o volume, controlar o frizz e facilitar a escovação,
+                                deixando o cabelo mais alinhado e macio.
+                            </p>
+                        </div>
+                        <div class="col mb-5 mb-md-0 h-100">
+                            <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3">
+                                <i class="bi bi-toggles2"></i>
+                            </div>
+                            <h2 class="h5">GELATINAS</h2>
+                            <p class="mb-0">
+                                Gelatinas capilares que definem cachos e ondulações, mantendo a leveza, o movimento
+                                e a fixação sem ressecar os fios.
+                            </p>
+                        </div>
+                        <div class="col h-100">
+                            <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3">
+                                <i class="bi bi-toggles2"></i>
+                            </div>
+                            <h2 class="h5">OUTROS</h2>
+                            <p class="mb-0">
+                                Categoria composta por diversos produtos complementares, incluindo finalizadores,
+                                óleos e itens de manutenção diária.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="py-5 bg-light">
+        <div class="container px-5 my-5">
+            <div class="row gx-5 justify-content-center">
+                <div class="col-lg-10 col-xl-7">
+                    <div class="text-center">
+                        <div class="fs-4 mb-4 fst-italic">
+                            "Nosso catálogo reúne produtos desenvolvidos com qualidade e foco em resultados,
+                            garantindo cuidado, tratamento e performance para todos os tipos de cabelo."
+                        </div>
+                        <div class="d-flex align-items-center justify-content-center">
+                            <div class="fw-bold">
+                                Linha Profissional
+                                <span class="fw-bold text-primary mx-1">/</span>
+                                Equipe Soft
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-lg-10 col-xl-8">
+                    <div class="p-4 p-md-5 rounded shadow-sm" style="background-color:rgba(216, 191, 216, 0.75);">
+                        <div class="row g-4">
+                            <div class="col-12 col-md-6">
+                                <div class="row g-2 align-items-center">
+                                    <div class="col-5 col-sm-6">
+                                        <div class="ratio ratio-1x1">
+                                            <img src="https://softhair.com.br/wp-content/uploads/2021/07/7229_7440-416x416.png"
+                                                class="rounded object-fit-cover" alt="Defrizante Anti-Frizz"
+                                                data-bs-toggle="modal" data-bs-target="#modal2" role="button">
+                                        </div>
+                                    </div>
+                                    <div class="col-7 col-sm-6">
+                                        <div class="card rounded-4 bg-light text-dark p-3 h-100 border-0 shadow-sm">
+                                            <span
+                                                class="badge bg-primary rounded-pill mb-2 align-self-start">Finalização</span>
+                                            <h5 class="fw-bold mb-2">Defrizante Anti-Frizz</h5>
+                                            <p class="mb-0 small text-muted">
+                                                Alinhamento, brilho e proteção térmica para acabamento perfeito.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-md-6">
+                                <div class="row g-2 align-items-center">
+                                    <div class="col-5 col-sm-6">
+                                        <div class="ratio ratio-1x1">
+                                            <img src="https://softhair.com.br/wp-content/uploads/2023/11/6236-416x416.png"
+                                                class="rounded object-fit-cover" alt="Gelatina Modeladora"
+                                                data-bs-toggle="modal" data-bs-target="#modal3" role="button">
+                                        </div>
+                                    </div>
+                                    <div class="col-7 col-sm-6">
+                                        <div class="card rounded-4 bg-light text-dark p-3 h-100 border-0 shadow-sm">
+                                            <span class="badge bg-primary rounded-pill mb-2 align-self-start">Cachos
+                                                e Ondas</span>
+                                            <h5 class="fw-bold mb-2">Gelatina Modeladora</h5>
+                                            <p class="mb-0 small text-muted">
+                                                Definição e fixação sem ressecar — leve e maleável.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-lg-10">
+                    <div class="p-4 p-md-5 rounded shadow-sm" style="background-color: rgba(250, 235, 215, 0.75);">
+                        <div class="row g-4 align-items-center">
+                            <div class="col-12 col-md-3 text-center">
+                                <img src="/assets/Captura de Tela (9).png" class="img-fluid rounded-circle shadow"
+                                    alt="Logo" style="max-width: 120px;">
+                            </div>
+
+                            <div class="col-12 col-md-9">
+                                <div class="row g-4">
+                                    <div class="col-12 col-sm-6">
+                                        <div class="row g-2 align-items-center">
+                                            <div class="col-5">
+                                                <div class="ratio ratio-1x1">
+                                                    <img src="https://softhair.com.br/wp-content/uploads/2021/07/7229_7440-416x416.png"
+                                                        class="rounded object-fit-cover" alt="Defrizante"
+                                                        data-bs-toggle="modal" data-bs-target="#modal2" role="button">
+                                                </div>
+                                            </div>
+                                            <div class="col-7">
+                                                <div class="card rounded-4 bg-light p-3 border-0 shadow-sm">
+                                                    <span
+                                                        class="badge bg-primary rounded-pill mb-2 align-self-start">Finalização</span>
+                                                    <h6 class="fw-bold mb-1">Defrizante Anti-Frizz</h6>
+                                                    <p class="mb-0 small text-muted">Alinhamento, brilho e proteção
+                                                        térmica.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-12 col-sm-6">
+                                        <div class="row g-2 align-items-center">
+                                            <div class="col-5">
+                                                <div class="ratio ratio-1x1">
+                                                    <img src="https://softhair.com.br/wp-content/uploads/2023/11/6236-416x416.png"
+                                                        class="rounded object-fit-cover" alt="Gelatina"
+                                                        data-bs-toggle="modal" data-bs-target="#modal3" role="button">
+                                                </div>
+                                            </div>
+                                            <div class="col-7">
+                                                <div class="card rounded-4 bg-light p-3 border-0 shadow-sm">
+                                                    <span
+                                                        class="badge bg-primary rounded-pill mb-2 align-self-start">Cachos</span>
+                                                    <h6 class="fw-bold mb-1">Gelatina Modeladora</h6>
+                                                    <p class="mb-0 small text-muted">Definição sem ressecar.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="py-5">
+        <div class="container">
+            <div class="p-4 p-md-5 rounded shadow-sm" style="background-color:rgba(135, 206, 250, 0.75);">
+                <div class="row g-4">
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="row g-2 align-items-center">
+                            <div class="col-5">
+                                <div class="ratio ratio-1x1">
+                                    <img src="https://softhair.com.br/wp-content/uploads/2023/11/6236-416x416.png"
+                                        class="rounded object-fit-cover" alt="Gelatina" data-bs-toggle="modal"
+                                        data-bs-target="#modal3" role="button">
+                                </div>
+                            </div>
+                            <div class="col-7">
+                                <div class="card rounded-4 bg-light p-3 border-0 shadow-sm">
+                                    <span class="badge bg-primary rounded-pill mb-2 align-self-start">Cachos</span>
+                                    <h6 class="fw-bold mb-1">Gelatina Modeladora</h6>
+                                    <p class="mb-0 small text-muted">Definição sem ressecar.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="row g-2 align-items-center">
+                            <div class="col-5">
+                                <div class="ratio ratio-1x1">
+                                    <img src="https://softhair.com.br/wp-content/uploads/2021/07/7229_7440-416x416.png"
+                                        class="rounded object-fit-cover" alt="Defrizante" data-bs-toggle="modal"
+                                        data-bs-target="#modal2" role="button">
+                                </div>
+                            </div>
+                            <div class="col-7">
+                                <div class="card rounded-4 bg-light p-3 border-0 shadow-sm">
+                                    <span class="badge bg-primary rounded-pill mb-2 align-self-start">Finalização</span>
+                                    <h6 class="fw-bold mb-1">Defrizante Anti-Frizz</h6>
+                                    <p class="mb-0 small text-muted">Alinhamento e proteção térmica.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="row g-2 align-items-center">
+                            <div class="col-5">
+                                <div class="ratio ratio-1x1">
+                                    <img src="https://softhair.com.br/wp-content/uploads/2023/11/6236-416x416.png"
+                                        class="rounded object-fit-cover" alt="Gelatina" data-bs-toggle="modal"
+                                        data-bs-target="#modal3" role="button">
+                                </div>
+                            </div>
+                            <div class="col-7">
+                                <div class="card rounded-4 bg-light p-3 border-0 shadow-sm">
+                                    <span class="badge bg-primary rounded-pill mb-2 align-self-start">Cachos</span>
+                                    <h6 class="fw-bold mb-1">Gelatina Modeladora</h6>
+                                    <p class="mb-0 small text-muted">Fixação maleável.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="py-5">
+        <div class="container">
+            <div class="p-4 p-md-5 rounded shadow-sm" style="background-color:rgba(233, 250, 135, 0.75);">
+                <div class="row g-4">
+                    <div class="col-6 col-md-4 col-lg-2">
+                        <div class="text-center">
+                            <div class="ratio ratio-1x1 mb-3">
+                                <img src="https://softhair.com.br/wp-content/uploads/2023/11/6236-416x416.png"
+                                    class="rounded object-fit-cover shadow-sm" alt="Esfoliante 1" data-bs-toggle="modal"
+                                    data-bs-target="#modal3" role="button">
+                            </div>
+                            <h6 class="fw-bold">Esfoliante 1</h6>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-md-4 col-lg-2">
+                        <div class="text-center">
+                            <div class="ratio ratio-1x1 mb-3">
+                                <img src="https://softhair.com.br/wp-content/uploads/2021/07/7229_7440-416x416.png"
+                                    class="rounded object-fit-cover shadow-sm" alt="Defrizante 2" data-bs-toggle="modal"
+                                    data-bs-target="#modal2" role="button">
+                            </div>
+                            <h6 class="fw-bold">Defrizante 2</h6>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-md-4 col-lg-2">
+                        <div class="text-center">
+                            <div class="ratio ratio-1x1 mb-3">
+                                <img src="https://softhair.com.br/wp-content/uploads/2023/11/6236-416x416.png"
+                                    class="rounded object-fit-cover shadow-sm" alt="Esfoliante 3" data-bs-toggle="modal"
+                                    data-bs-target="#modal3" role="button">
+                            </div>
+                            <h6 class="fw-bold">Esfoliante 3</h6>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-md-4 col-lg-2">
+                        <div class="text-center">
+                            <div class="ratio ratio-1x1 mb-3">
+                                <img src="https://softhair.com.br/wp-content/uploads/2021/07/7229_7440-416x416.png"
+                                    class="rounded object-fit-cover shadow-sm" alt="Defrizante 4" data-bs-toggle="modal"
+                                    data-bs-target="#modal2" role="button">
+                            </div>
+                            <h6 class="fw-bold">Defrizante 4</h6>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-md-4 col-lg-2">
+                        <div class="text-center">
+                            <div class="ratio ratio-1x1 mb-3">
+                                <img src="https://softhair.com.br/wp-content/uploads/2023/11/6236-416x416.png"
+                                    class="rounded object-fit-cover shadow-sm" alt="Esfoliante 5" data-bs-toggle="modal"
+                                    data-bs-target="#modal3" role="button">
+                            </div>
+                            <h6 class="fw-bold">Esfoliante 5</h6>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-md-4 col-lg-2">
+                        <div class="text-center">
+                            <div class="ratio ratio-1x1 mb-3">
+                                <img src="https://softhair.com.br/wp-content/uploads/2021/07/7229_7440-416x416.png"
+                                    class="rounded object-fit-cover shadow-sm" alt="Defrizante 6" data-bs-toggle="modal"
+                                    data-bs-target="#modal2" role="button">
+                            </div>
+                            <h6 class="fw-bold">Defrizante 6</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modal2" tabindex="-1" aria-labelledby="modal2Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 id="modal2Label" class="modal-title fw-bold">Defrizante Anti-Frizz</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row g-4">
+                        <div class="col-md-5">
+                            <img src="https://softhair.com.br/wp-content/uploads/2021/07/7229_7440-416x416.png"
+                                class="img-fluid rounded" alt="Defrizante Anti-Frizz">
+                        </div>
+                        <div class="col-md-7">
+                            <p>Produto ideal para alinhamento dos fios, brilho intenso e proteção térmica.</p>
+                            <ul class="list-unstyled">
+                                <li class="mb-2">✓ Controle de frizz</li>
+                                <li class="mb-2">✓ Proteção térmica</li>
+                                <li class="mb-2">✓ Brilho e alinhamento</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modal3" tabindex="-1" aria-labelledby="modal3Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 id="modal3Label" class="modal-title fw-bold">Gelatina Modeladora</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row g-4">
+                        <div class="col-md-5">
+                            <img src="https://softhair.com.br/wp-content/uploads/2023/11/6236-416x416.png"
+                                class="img-fluid rounded" alt="Gelatina Modeladora">
+                        </div>
+                        <div class="col-md-7">
+                            <p>Gelatina leve para definição e fixação sem ressecar.</p>
+                            <ul class="list-unstyled">
+                                <li class="mb-2">✓ Definição de cachos</li>
+                                <li class="mb-2">✓ Textura leve</li>
+                                <li class="mb-2">✓ Não resseca</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="container-fluid py-5 bg-dark text-white" id="scroll-target">
+        <div class="px-5 my-5">
+            <div class="row gx-5 align-items-center">
+                <div class="col-lg-6">
+                    <img class="img-fluid rounded mb-5 mb-lg-0" src="/assets/Design sem nome (1).png" alt="">
+                </div>
+                <div class="col-lg-6">
+                    <h2 class="fw-bolder">Quem Somos</h2>
+                    <p class="lead fw-normal text-muted mb-0">
+                        Atuamos no desenvolvimento de produtos capilares de alta performance, combinando tecnologia,
+                        qualidade e cuidado em cada formulação. Nosso compromisso é oferecer soluções eficazes que
+                        atendam às necessidades reais de profissionais e consumidores, sempre com excelência e
+                        inovação.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid p-5 my-5">
+            <div class="row gx-5 align-items-center">
+                <div class="col-lg-6 order-first order-lg-last">
+                    <img class="img-fluid rounded mb-5 mb-lg-0" src="/assets/Design sem nome.png" alt="Crescimento">
+                </div>
+                <div class="col-lg-6">
+                    <h2 class="fw-bolder">Nossa Evolução</h2>
+                    <p class="lead fw-normal text-muted mb-0">
+                        Ao longo dos anos, ampliamos nossa linha de produtos e fortalecemos nossa presença no
+                        mercado,
+                        sempre mantendo o foco na qualidade e no cuidado com os fios. Nosso crescimento é resultado
+                        de
+                        dedicação, pesquisa e compromisso em entregar resultados reais para quem confia em nossas
+                        soluções.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="p-5 my-5">
+            <div class="row gx-5 align-items-center">
+                <div class="col-lg-6">
+                    <img class="img-fluid rounded mb-5 mb-lg-0" src="/assets/Design sem nome (10).png" alt="">
+                </div>
+                <div class="col-lg-6">
+                    <h2 class="fw-bolder">Beleza Feminina</h2>
+                    <p class="lead fw-normal text-muted mb-0">
+                        Desenvolvemos produtos capilares de alta performance, unindo tecnologia, qualidade e cuidado
+                        em cada fórmula. Nosso objetivo é oferecer soluções eficazes que atendam às necessidades
+                        reais
+                        de profissionais e consumidoras, sempre com excelência e inovação.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid p-5 my-5">
+            <div class="row gx-5 align-items-center">
+                <div class="col-lg-6 order-first order-lg-last">
+                    <img class="img-fluid rounded mb-5 mb-lg-0" src="/assets/Design sem nome (11).png" alt="Cosméticos">
+                </div>
+                <div class="col-lg-6">
+                    <h2 class="fw-bolder">Cosméticos</h2>
+                    <p class="lead fw-normal text-muted mb-0">
+                        Ampliamos nossa linha de cosméticos ao longo dos anos, reforçando nossa presença no mercado
+                        e mantendo o compromisso com qualidade e cuidado. Nosso avanço é fruto de dedicação,
+                        pesquisa
+                        e foco em entregar resultados concretos para quem confia em nossos produtos.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="footer" class="text-center pt-3">
+        <p style="font-size: 12px;">03/2021 - SICS Web Project</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
