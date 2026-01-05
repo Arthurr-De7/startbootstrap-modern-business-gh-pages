@@ -5,74 +5,81 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Todos os Produtos - ACERVO DIGITAL</title>
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <style>
-    .card{
+    body {
+        background-color: whitesmoke;
+    }
+
+    header {
+        background: linear-gradient(135deg, #6a1b9a, #9c27b0);
+        color: white;
+    }
+
+    .card {
         background-color: rgba(185, 185, 185, 0.5);
     }
 </style>
-<body style="background-color: lavender; font-family: 'Montserrat', sans-serif;">
-    <header class="bg-white">
-        <div class="container py-4">
-            <div class="text-center mb-4">
-                <h1 class="display-4 mb-2 fw-medium">Soft Hair</h1>
-                <p class="lead  text-white mb-0">Todos os Produtos</p>
-            </div>
-            <div class="row g-3 justify-content-evenly text-center">
+
+<body>
+    <header class="py-5 text-center">
+        <div class="container">
+            <h1 class="display-4 fw-bolder">Soft Hair</h1>
+            <p class="lead fs-2">Acervo Digital</p>
+            <div class="row justify-content-center mt-4 g-4">
                 <div class="col-md-4">
-                    <div class="bg-primary text-white rounded p-3">
-                        <i class="fas fa-box fa-2x mb-2"></i>
-                        <h4 class="mb-0">0</h4>
-                        <small>Produtos</small>
+                    <div class="bg-white text-dark rounded p-4">
+                        <i class="fas fa-box fa-3x mb-3 text-primary"></i>
+                        <h3 class="fw-bold">0</h3>
+                        <p>Produtos</p>
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="bg-dark text-white rounded p-3">
-                        <i class="fas fa-check-circle fa-2x mb-2"></i>
-                        <h4 class="mb-0">0</h4>
-                        <small>Ativos</small>
+                    <div class="bg-white text-dark rounded p-4">
+                        <i class="fas fa-layer-group fa-3x mb-3 text-success"></i>
+                        <h3 class="fw-bold">0</h3>
+                        <p>Linhas</p>
                     </div>
                 </div>
             </div>
-        </div>
     </header>
     <div class="container my-4">
-        <div class="row g-3 justify-content-between align-items-center">
-            <div class="col-12">
-                <a href="/gk.html" class="btn btn-outline-info w-25  ">
-                    <i class="fas fa-arrow-left me-2"></i> Voltar
-                </a>
-            </div>
-            <div class="col-lg-5">
-                <div class="input-group input-group-lg  ">
-                    <input type="search" class="form-control" placeholder="Pesquisar"
-                        aria-label="Campo de pesquisa">
-                    <button class="btn btn-dark text-white" type="button">
-                        <i class="fas fa-search"></i>
-                    </button>
+        <div class="col-lg-4">
+            <a href="/gk.html" class="btn btn-outline-info w-25  ">
+                <i class="fas fa-arrow-left me-2"></i> Voltar
+            </a>
+        </div>
+        <section class="container my-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="input-group input-group-lg">
+                        <input type="search" class="form-control" placeholder="Pesquisar linha ou produto"
+                            aria-label="Pesquisa">
+                        <button class="btn btn-primary" type="button">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </div>
                 </div>
             </div>
-            <div class="col-lg-5">
-                <div class="btn-group w-100  " role="group" aria-label="Filtros de status">
-                    <input type="radio" class="btn-check" name="filtro" id="todos" autocomplete="off" checked>
-                    <label class="btn btn-outline-primary" for="todos">
-                        <i class="fas fa-list me-1"></i> Todos
-                    </label>
+        </section>
+        <div class="col-lg-4">
+            <div class="btn-group w-100  " role="group" aria-label="Filtros de status">
+                <input type="radio" class="btn-check" name="filtro" id="todos" autocomplete="off" checked>
+                <label class="btn btn-outline-primary" for="todos">
+                    <i class="fas fa-list me-1"></i> Todos
+                </label>
 
-                    <input type="radio" class="btn-check" name="filtro" id="ativos" autocomplete="off">
-                    <label class="btn btn-outline-success" for="ativos">
-                        <i class="fas fa-check me-1"></i> Ativos
-                    </label>
+                <input type="radio" class="btn-check" name="filtro" id="ativos" autocomplete="off">
+                <label class="btn btn-outline-success" for="ativos">
+                    <i class="fas fa-check me-1"></i> Ativos
+                </label>
 
-                    <input type="radio" class="btn-check" name="filtro" id="inativos" autocomplete="off">
-                    <label class="btn btn-outline-danger" for="inativos">
-                        <i class="fas fa-times me-1"></i> Inativos
-                    </label>
-                </div>
+                <input type="radio" class="btn-check" name="filtro" id="inativos" autocomplete="off">
+                <label class="btn btn-outline-danger" for="inativos">
+                    <i class="fas fa-times me-1"></i> Inativos
+                </label>
             </div>
         </div>
     </div>
