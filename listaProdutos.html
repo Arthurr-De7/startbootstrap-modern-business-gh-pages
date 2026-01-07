@@ -19,53 +19,62 @@
         <div class="py-5 text-center">
             <p class="lead fs-1 text-muted my-5">Acervo Digital</p>
             <div class="row g-4 justify-content-center">
-                <div class="col-md-5 col-lg-4">
+                <div class="col-lg-4">
                     <div class="bg-white border border-dark rounded p-4 ">
-                        <i class="fas fa-layer-group fa-3x mb-3 text-success"></i>
+                        <i class="fas fa-layer-group fa-3x mb-3 text-warning"></i>
                         <h3 class="fw-bold display-5 mb-1">0</h3>
                         <p class="mb-0 text-muted">Linhas Capilares</p>
                     </div>
                 </div>
-                <div class="col-md-5 col-lg-4">
+                <div class="col-lg-4">
                     <div class="bg-white border border-dark rounded p-4 ">
                         <i class="fas fa-box-open fa-3x mb-3 text-primary"></i>
                         <h3 class="fw-bold display-5 mb-1">0</h3>
                         <p class="mb-0 text-muted">Produtos</p>
                     </div>
                 </div>
+                <div class="col-lg-4">
+                    <div class="bg-white border border-dark rounded p-4 ">
+                        <i class="fa-solid fa-check fa-3x mb-3 text-success"></i>
+                        <h3 class="fw-bold display-5 mb-1">0</h3>
+                        <p class="mb-0 text-muted">Produtos Ativos</p>
+                    </div>
+                </div>
             </div>
         </div>
-
-        <div class="row justify-content-center my-5">
-            <div class="col-lg-8 col-xl-6">
+        <div class="row my-5 justify-content-between align-items-center">
+            <div class="col-md-6 col-12 mb-3 mb-md-0">
                 <form class="input-group input-group-lg">
                     <input type="search" class="form-control" placeholder="Pesquisar linha ou produto"
                         aria-label="Pesquisar">
-                    <button class="btn btn-dark" type="submit"><i class="fas fa-search"></i></button>
+                    <button class="btn btn-dark" type="submit">
+                        <i class="fas fa-search"></i>
+                    </button>
                 </form>
             </div>
-        </div>
-        <div class="col-lg-4">
-            <div class="btn-group w-100  " role="group" aria-label="Filtros de status">
-                <input type="radio" class="btn-check" name="filtro" id="todos" autocomplete="off" checked>
-                <label class="btn btn-outline-dark" for="todos">
-                    <i class="fas fa-list me-1"></i> Todos
-                </label>
+            <div class="col-md-4 col-12">
+                <div class="btn-group w-100" role="group" aria-label="Filtros de status">
+                    <input type="radio" class="btn-check" name="filtro" id="todos" autocomplete="off" checked>
+                    <label class="btn btn-outline-dark" for="todos">
+                        <i class="fas fa-list me-1"></i> Todos
+                    </label>
 
-                <input type="radio" class="btn-check" name="filtro" id="ativos" autocomplete="off">
-                <label class="btn btn-outline-success" for="ativos">
-                    <i class="fas fa-check me-1"></i> Ativos
-                </label>
+                    <input type="radio" class="btn-check" name="filtro" id="ativos" autocomplete="off">
+                    <label class="btn btn-outline-success" for="ativos">
+                        <i class="fas fa-check me-1"></i> Ativos
+                    </label>
 
-                <input type="radio" class="btn-check" name="filtro" id="inativos" autocomplete="off">
-                <label class="btn btn-outline-danger" for="inativos">
-                    <i class="fas fa-times me-1"></i> Inativos
-                </label>
+                    <input type="radio" class="btn-check" name="filtro" id="inativos" autocomplete="off">
+                    <label class="btn btn-outline-danger" for="inativos">
+                        <i class="fas fa-times me-1"></i> Inativos
+                    </label>
+                </div>
             </div>
         </div>
 
+
         <h2 class="fw-bold my-5 py-3 w-25" style="border-bottom: 4px solid purple">Lisa Esfoliante</h2>
-        <div class="row g-4">
+        <div class="row g-4 border border-3">
             <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
                 <div class="card h-100 border-0">
                     <div class="card-header border-0 pb-0">
