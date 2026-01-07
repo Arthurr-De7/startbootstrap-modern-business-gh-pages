@@ -8,66 +8,47 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
-<style>
-    body {
-        background-color: whitesmoke;
-    }
-
-    header {
-        background: linear-gradient(135deg, #6a1b9a, #9c27b0);
-        color: white;
-    }
-
-    .card {
-        background-color: rgba(185, 185, 185, 0.5);
-    }
-</style>
 
 <body>
-    <header class="py-5 text-center">
-        <div class="container">
-            <h1 class="display-4 fw-bolder">Soft Hair</h1>
-            <p class="lead fs-2">Acervo Digital</p>
-            <div class="row justify-content-center mt-4 g-4">
-                <div class="col-md-4">
-                    <div class="bg-white text-dark rounded p-4">
-                        <i class="fas fa-box fa-3x mb-3 text-primary"></i>
-                        <h3 class="fw-bold">0</h3>
-                        <p>Produtos</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="bg-white text-dark rounded p-4">
-                        <i class="fas fa-check fa-3x mb-3 text-success"></i>
-                        <h3 class="fw-bold">0</h3>
-                        <p>Ativos</p>
-                    </div>
-                </div>
-            </div>
-    </header>
-    <div class="container my-4">
-        <div class="col-lg-4">
-            <a href="/gk.html" class="btn btn-outline-dark w-25  ">
+    <div class="container">
+        <div class="w-50 mt-4 text-start">
+            <a href="/telainicio.html" class="btn btn-outline-dark w-25  ">
                 <i class="fas fa-arrow-left me-2"></i> Voltar
             </a>
         </div>
-        <section class="container my-5">
-            <div class="row justify-content-center">
-                <div class="col-lg-8">
-                    <div class="input-group input-group-lg">
-                        <input type="search" class="form-control" placeholder="Pesquisar linha ou produto"
-                            aria-label="Pesquisa">
-                        <button class="btn btn-primary" type="button">
-                            <i class="fas fa-search"></i>
-                        </button>
+        <div class="py-5 text-center">
+            <p class="lead fs-1 text-muted my-5">Acervo Digital</p>
+            <div class="row g-4 justify-content-center">
+                <div class="col-md-5 col-lg-4">
+                    <div class="bg-white border border-dark rounded p-4 ">
+                        <i class="fas fa-layer-group fa-3x mb-3 text-success"></i>
+                        <h3 class="fw-bold display-5 mb-1">0</h3>
+                        <p class="mb-0 text-muted">Linhas Capilares</p>
+                    </div>
+                </div>
+                <div class="col-md-5 col-lg-4">
+                    <div class="bg-white border border-dark rounded p-4 ">
+                        <i class="fas fa-box-open fa-3x mb-3 text-primary"></i>
+                        <h3 class="fw-bold display-5 mb-1">0</h3>
+                        <p class="mb-0 text-muted">Produtos</p>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+
+        <div class="row justify-content-center my-5">
+            <div class="col-lg-8 col-xl-6">
+                <form class="input-group input-group-lg">
+                    <input type="search" class="form-control" placeholder="Pesquisar linha ou produto"
+                        aria-label="Pesquisar">
+                    <button class="btn btn-dark" type="submit"><i class="fas fa-search"></i></button>
+                </form>
+            </div>
+        </div>
         <div class="col-lg-4">
             <div class="btn-group w-100  " role="group" aria-label="Filtros de status">
                 <input type="radio" class="btn-check" name="filtro" id="todos" autocomplete="off" checked>
-                <label class="btn btn-outline-primary" for="todos">
+                <label class="btn btn-outline-dark" for="todos">
                     <i class="fas fa-list me-1"></i> Todos
                 </label>
 
@@ -82,29 +63,10 @@
                 </label>
             </div>
         </div>
-    </div>
-    <div class="container py-5 mb-5"
-        style="background: url(/assets/Story\ de\ instagram\ capa\ de\ catálogo\ de\ moda\ elegante\ \ \(1\).png); background-position: top; background-size: cover;">
+
+        <h2 class="fw-bold my-5 py-3 w-25" style="border-bottom: 4px solid purple">Lisa Esfoliante</h2>
         <div class="row g-4">
-            <div class="col-6 col-sm-4 col-md-3 ">
-                <div class="card h-100 border-0">
-                    <div class="card-header border-0 pb-0">
-                        <div class="d-flex justify-content-between align-items-center">
-                            <span class="badge bg-dark">SH-01</span>
-                            <span class="badge bg-dark">
-                                <i class="fas fa-check fa-xs me-1"></i> ATIVO
-                            </span>
-                        </div>
-                    </div>
-                    <img src="https://softhair.com.br/wp-content/uploads/2024/07/6246-416x416.png"
-                        class="card-img-top p-3" alt="Produto 1">
-                    <div class="card-body pt-0">
-                        <h6 class="card-title fw-bold mb-2">Produto 1</h6>
-                        <p class="card-text small text-white mb-0">Descrição do Produto 1</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-6 col-sm-4 col-md-3 ">
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
                 <div class="card h-100 border-0">
                     <div class="card-header border-0 pb-0">
                         <div class="d-flex justify-content-between align-items-center">
@@ -118,12 +80,12 @@
                         class="card-img-top p-3" alt="Produto 2">
                     <div class="card-body pt-0">
                         <h6 class="card-title fw-bold mb-2">Produto 2</h6>
-                        <p class="card-text small  text-white mb-0">Descrição do Produto 2</p>
+                        <p class="card-text small  text-dark mb-0">Descrição do Produto 2</p>
                     </div>
                 </div>
             </div>
 
-            <div class="col-6 col-sm-4 col-md-3 ">
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
                 <div class="card h-100 border-0">
                     <div class="card-header border-0 pb-0">
                         <div class="d-flex justify-content-between align-items-center">
@@ -137,183 +99,13 @@
                         class="card-img-top p-3" alt="Produto 3">
                     <div class="card-body pt-0">
                         <h6 class="card-title fw-bold mb-2">Produto 3</h6>
-                        <p class="card-text small  text-white mb-0">Descrição do Produto 3</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-6 col-sm-4 col-md-3 ">
-                <div class="card h-100 border-0">
-                    <div class="card-header border-0 pb-0">
-                        <div class="d-flex justify-content-between align-items-center">
-                            <span class="badge bg-dark">SH-04</span>
-                            <span class="badge bg-dark">
-                                <i class="fas fa-check fa-xs me-1"></i> ATIVO
-                            </span>
-                        </div>
-                    </div>
-                    <img src="https://softhair.com.br/wp-content/uploads/2024/07/6246-416x416.png"
-                        class="card-img-top p-3" alt="Produto 4">
-                    <div class="card-body pt-0">
-                        <h6 class="card-title fw-bold mb-2">Produto 4</h6>
-                        <p class="card-text small  text-white mb-0">Descrição do Produto 4</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-6 col-sm-4 col-md-3 ">
-                <div class="card h-100 border-0">
-                    <div class="card-header border-0 pb-0">
-                        <div class="d-flex justify-content-between align-items-center">
-                            <span class="badge bg-dark">SH-05</span>
-                            <span class="badge bg-dark">
-                                <i class="fas fa-check fa-xs me-1"></i> ATIVO
-                            </span>
-                        </div>
-                    </div>
-                    <img src="https://softhair.com.br/wp-content/uploads/2024/07/6246-416x416.png"
-                        class="card-img-top p-3" alt="Produto 5">
-                    <div class="card-body pt-0">
-                        <h6 class="card-title fw-bold mb-2">Produto 5</h6>
-                        <p class="card-text small  text-white mb-0">Descrição do Produto 5</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-6 col-sm-4 col-md-3 ">
-                <div class="card h-100 border-0">
-                    <div class="card-header border-0 pb-0">
-                        <div class="d-flex justify-content-between align-items-center">
-                            <span class="badge bg-dark">SH-06</span>
-                            <span class="badge bg-dark">
-                                <i class="fas fa-check fa-xs me-1"></i> ATIVO
-                            </span>
-                        </div>
-                    </div>
-                    <img src="https://softhair.com.br/wp-content/uploads/2024/07/6246-416x416.png"
-                        class="card-img-top p-3" alt="Produto 6">
-                    <div class="card-body pt-0">
-                        <h6 class="card-title fw-bold mb-2">Produto 6</h6>
-                        <p class="card-text small  text-white mb-0">Descrição do Produto 6</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-6 col-sm-4 col-md-3 ">
-                <div class="card h-100 border-0">
-                    <div class="card-header border-0 pb-0">
-                        <div class="d-flex justify-content-between align-items-center">
-                            <span class="badge bg-dark">SH-07</span>
-                            <span class="badge bg-dark">
-                                <i class="fas fa-check fa-xs me-1"></i> ATIVO
-                            </span>
-                        </div>
-                    </div>
-                    <img src="https://softhair.com.br/wp-content/uploads/2024/07/6246-416x416.png"
-                        class="card-img-top p-3" alt="Produto 7">
-                    <div class="card-body pt-0">
-                        <h6 class="card-title fw-bold mb-2">Produto 7</h6>
-                        <p class="card-text small  text-white mb-0">Descrição do Produto 7</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-6 col-sm-4 col-md-3 ">
-                <div class="card h-100 border-0">
-                    <div class="card-header border-0 pb-0">
-                        <div class="d-flex justify-content-between align-items-center">
-                            <span class="badge bg-dark">SH-08</span>
-                            <span class="badge bg-dark">
-                                <i class="fas fa-check fa-xs me-1"></i> ATIVO
-                            </span>
-                        </div>
-                    </div>
-                    <img src="https://softhair.com.br/wp-content/uploads/2024/07/6246-416x416.png"
-                        class="card-img-top p-3" alt="Produto 8">
-                    <div class="card-body pt-0">
-                        <h6 class="card-title fw-bold mb-2">Produto 8</h6>
-                        <p class="card-text small  text-white mb-0">Descrição do Produto 8</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-6 col-sm-4 col-md-3 ">
-                <div class="card h-100 border-0">
-                    <div class="card-header border-0 pb-0">
-                        <div class="d-flex justify-content-between align-items-center">
-                            <span class="badge bg-dark">SH-09</span>
-                            <span class="badge bg-dark">
-                                <i class="fas fa-check fa-xs me-1"></i> ATIVO
-                            </span>
-                        </div>
-                    </div>
-                    <img src="https://softhair.com.br/wp-content/uploads/2024/07/6246-416x416.png"
-                        class="card-img-top p-3" alt="Produto 9">
-                    <div class="card-body pt-0">
-                        <h6 class="card-title fw-bold mb-2">Produto 9</h6>
-                        <p class="card-text small  text-white mb-0">Descrição do Produto 9</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-6 col-sm-4 col-md-3 ">
-                <div class="card h-100 border-0">
-                    <div class="card-header border-0 pb-0">
-                        <div class="d-flex justify-content-between align-items-center">
-                            <span class="badge bg-dark">SH-10</span>
-                            <span class="badge bg-dark">
-                                <i class="fas fa-check fa-xs me-1"></i> ATIVO
-                            </span>
-                        </div>
-                    </div>
-                    <img src="https://softhair.com.br/wp-content/uploads/2024/07/6246-416x416.png"
-                        class="card-img-top p-3" alt="Produto 10">
-                    <div class="card-body pt-0">
-                        <h6 class="card-title fw-bold mb-2">Produto 10</h6>
-                        <p class="card-text small  text-white mb-0">Descrição do Produto 10</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-6 col-sm-4 col-md-3 ">
-                <div class="card h-100 border-0">
-                    <div class="card-header border-0 pb-0">
-                        <div class="d-flex justify-content-between align-items-center">
-                            <span class="badge bg-dark">SH-11</span>
-                            <span class="badge bg-dark">
-                                <i class="fas fa-check fa-xs me-1"></i> ATIVO
-                            </span>
-                        </div>
-                    </div>
-                    <img src="https://softhair.com.br/wp-content/uploads/2024/07/6246-416x416.png"
-                        class="card-img-top p-3" alt="Produto 11">
-                    <div class="card-body pt-0">
-                        <h6 class="card-title fw-bold mb-2">Produto 11</h6>
-                        <p class="card-text small  text-white mb-0">Descrição do Produto 11</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-6 col-sm-4 col-md-3 ">
-                <div class="card h-100 border-0">
-                    <div class="card-header border-0 pb-0">
-                        <div class="d-flex justify-content-between align-items-center">
-                            <span class="badge bg-dark">SH-12</span>
-                            <span class="badge bg-dark">
-                                <i class="fas fa-check fa-xs me-1"></i> ATIVO
-                            </span>
-                        </div>
-                    </div>
-                    <img src="https://softhair.com.br/wp-content/uploads/2024/07/6246-416x416.png"
-                        class="card-img-top p-3" alt="Produto 12">
-                    <div class="card-body pt-0">
-                        <h6 class="card-title fw-bold mb-2">Produto 12</h6>
-                        <p class="card-text small  text-white mb-0">Descrição do Produto 12</p>
+                        <p class="card-text small  text-dark mb-0">Descrição do Produto 3</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
     <footer class="bg-white mt-auto py-4">
         <div class="container text-center text-muted small">
             03/2021 - SICS Web Project
