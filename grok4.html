@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acervo Digital - Soft Hair</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <style>
+        .card-img-zoom {
+            transition: transform 0.6s ease;
+        }
+        .linha-card:hover .card-img-zoom {
+            transform: scale(1.12);
+        }
+        .card-img-overlay {
+            background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
+        }
+    </style>
+</head>
+
+<body class="min-vh-100 bg-light d-flex flex-column">
+
+    <div class="py-5 text-center bg-white">
+        <div class="container">
+            <h1 class="fw-bold display-5 mb-4">Acervo Digital</h1>
+
+            <div class="row g-4 justify-content-center">
+                <div class="col-lg-4">
+                    <div class="card border shadow-sm rounded-3 h-100 p-4 text-center">
+                        <i class="fas fa-layer-group fa-3x mb-3 text-primary"></i>
+                        <h3 class="fw-bold display-5 mb-1">0</h3>
+                        <p class="mb-0 text-muted">Linhas</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card border shadow-sm rounded-3 h-100 p-4 text-center">
+                        <i class="fas fa-box-open fa-3x mb-3 text-warning"></i>
+                        <h3 class="fw-bold display-5 mb-1">0</h3>
+                        <p class="mb-0 text-muted">Produtos</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card border shadow-sm rounded-3 h-100 p-4 text-center">
+                        <i class="fa-solid fa-check fa-3x mb-3 text-success"></i>
+                        <h3 class="fw-bold display-5 mb-1">0</h3>
+                        <p class="mb-0 text-muted">Produtos Ativos</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container flex-grow-1 py-5">
+        <div class="row justify-content-center mb-5">
+            <div class="col-lg-8 col-xl-6">
+                <form class="input-group input-group-lg">
+                    <input type="search" class="form-control rounded-pill rounded-end-0" placeholder="Pesquisar linha ou produto" aria-label="Pesquisar">
+                    <button class="btn btn-dark rounded-pill rounded-start-0" type="submit"><i class="fas fa-search"></i></button>
+                </form>
+            </div>
+        </div>
+
+        <h2 class="fw-bold mb-4 pb-3 border-bottom border-4 border-purple">Linhas Capilares</h2>
+
+        <div class="row g-4">
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
+                <div class="card linha-card border-0 shadow-lg rounded-4 overflow-hidden h-100 position-relative">
+                    <img src="/assets/capateiga.png" class="card-img card-img-zoom" style="height: 350px; object-fit: cover;" alt="Linha Soft">
+                    <div class="card-img-overlay d-flex flex-column justify-content-end align-items-center p-4 text-center text-white">
+                        <h5 class="fw-bold mb-1">Linha Soft</h5>
+                        <p class="mb-3 small">Cuidado diário</p>
+                        <a href="/listaProdutos.html" class="btn btn-outline-light btn-sm px-4 rounded-pill">Ver Produtos</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
+                <div class="card linha-card border-0 shadow-lg rounded-4 overflow-hidden h-100 position-relative">
+                    <img src="/assets/capapoo.png" class="card-img card-img-zoom" style="height: 350px; object-fit: cover;" alt="Liso Intenso">
+                    <div class="card-img-overlay d-flex flex-column justify-content-end align-items-center p-4 text-center text-white">
+                        <h5 class="fw-bold mb-1">Liso Intenso</h5>
+                        <p class="mb-3 small">Alisamento e manutenção</p>
+                        <a href="/listaProdutos.html" class="btn btn-outline-light btn-sm px-4 rounded-pill">Ver Produtos</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
+                <div class="card linha-card border-0 shadow-lg rounded-4 overflow-hidden h-100 position-relative">
+                    <img src="/assets/caparencon.png" class="card-img card-img-zoom" style="height: 350px; object-fit: cover;" alt="Cronograma Capilar">
+                    <div class="card-img-overlay d-flex flex-column justify-content-end align-items-center p-4 text-center text-white">
+                        <h5 class="fw-bold mb-1">Cronograma Capilar</h5>
+                        <p class="mb-3 small">Hidratação, Nutrição e Reconstrução</p>
+                        <a href="/listaProdutos.html" class="btn btn-outline-light btn-sm px-4 rounded-pill">Ver Produtos</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
+                <div class="card linha-card border-0 shadow-lg rounded-4 overflow-hidden h-100 position-relative">
+                    <img src="/assets/capa3d.png" class="card-img card-img-zoom" style="height: 350px; object-fit: cover;" alt="Linha 3D">
+                    <div class="card-img-overlay d-flex flex-column justify-content-end align-items-center p-4 text-center text-white">
+                        <h5 class="fw-bold mb-1">Linha 3D</h5>
+                        <p class="mb-3 small">Hidratação intensa</p>
+                        <a href="/listaProdutos.html" class="btn btn-outline-light btn-sm px-4 rounded-pill">Ver Produtos</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
+                <div class="card linha-card border-0 shadow-lg rounded-4 overflow-hidden h-100 position-relative">
+                    <img src="/assets/capabio.png" class="card-img card-img-zoom" style="height: 350px; object-fit: cover;" alt="Bioplex Nasce Fios">
+                    <div class="card-img-overlay d-flex flex-column justify-content-end align-items-center p-4 text-center text-white">
+                        <h5 class="fw-bold mb-1">Bioplex Nasce Fios</h5>
+                        <p class="mb-3 small">Crescimento capilar</p>
+                        <a href="/listaProdutos.html" class="btn btn-outline-light btn-sm px-4 rounded-pill">Ver Produtos</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
+                <div class="card linha-card border-0 shadow-lg rounded-4 overflow-hidden h-100 position-relative">
+                    <img src="/assets/capateiga.png" class="card-img card-img-zoom" style="height: 350px; object-fit: cover;" alt="Linha Soft">
+                    <div class="card-img-overlay d-flex flex-column justify-content-end align-items-center p-4 text-center text-white">
+                        <h5 class="fw-bold mb-1">Linha Soft</h5>
+                        <p class="mb-3 small">Cuidado diário</p>
+                        <a href="/listaProdutos.html" class="btn btn-outline-light btn-sm px-4 rounded-pill">Ver Produtos</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h2 class="fw-bold my-5 pb-3 border-bottom border-4 border-purple">Linhas Corporais</h2>
+
+        <div class="row g-4">
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
+                <div class="card linha-card border-0 shadow-lg rounded-4 overflow-hidden h-100 position-relative">
+                    <img src="/assets/image.jpg" class="card-img card-img-zoom" style="height: 350px; object-fit: cover;" alt="Linha Soft">
+                    <div class="card-img-overlay d-flex flex-column justify-content-end align-items-center p-4 text-center text-white">
+                        <h5 class="fw-bold mb-1">Linha Soft</h5>
+                        <p class="mb-3 small">Cuidado diário</p>
+                        <a href="/listaProdutos.html" class="btn btn-outline-light btn-sm px-4 rounded-pill">Ver Produtos</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
+                <div class="card linha-card border-0 shadow-lg rounded-4 overflow-hidden h-100 position-relative">
+                    <img src="/assets/image (1).jpg" class="card-img card-img-zoom" style="height: 350px; object-fit: cover;" alt="Liso Intenso">
+                    <div class="card-img-overlay d-flex flex-column justify-content-end align-items-center p-4 text-center text-white">
+                        <h5 class="fw-bold mb-1">Liso Intenso</h5>
+                        <p class="mb-3 small">Alisamento e manutenção</p>
+                        <a href="/listaProdutos.html" class="btn btn-outline-light btn-sm px-4 rounded-pill">Ver Produtos</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
+                <div class="card linha-card border-0 shadow-lg rounded-4 overflow-hidden h-100 position-relative">
+                    <img src="/assets/image.jpg" class="card-img card-img-zoom" style="height: 350px; object-fit: cover;" alt="Cronograma Capilar">
+                    <div class="card-img-overlay d-flex flex-column justify-content-end align-items-center p-4 text-center text-white">
+                        <h5 class="fw-bold mb-1">Cronograma Capilar</h5>
+                        <p class="mb-3 small">Hidratação, Nutrição e Reconstrução</p>
+                        <a href="/listaProdutos.html" class="btn btn-outline-light btn-sm px-4 rounded-pill">Ver Produtos</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
+                <div class="card linha-card border-0 shadow-lg rounded-4 overflow-hidden h-100 position-relative">
+                    <img src="/assets/image (1).jpg" class="card-img card-img-zoom" style="height: 350px; object-fit: cover;" alt="Linha 3D">
+                    <div class="card-img-overlay d-flex flex-column justify-content-end align-items-center p-4 text-center text-white">
+                        <h5 class="fw-bold mb-1">Linha 3D</h5>
+                        <p class="mb-3 small">Hidratação intensa</p>
+                        <a href="/listaProdutos.html" class="btn btn-outline-light btn-sm px-4 rounded-pill">Ver Produtos</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
+                <div class="card linha-card border-0 shadow-lg rounded-4 overflow-hidden h-100 position-relative">
+                    <img src="/assets/image.jpg" class="card-img card-img-zoom" style="height: 350px; object-fit: cover;" alt="Bioplex Nasce Fios">
+                    <div class="card-img-overlay d-flex flex-column justify-content-end align-items-center p-4 text-center text-white">
+                        <h5 class="fw-bold mb-1">Bioplex Nasce Fios</h5>
+                        <p class="mb-3 small">Crescimento capilar</p>
+                        <a href="/listaProdutos.html" class="btn btn-outline-light btn-sm px-4 rounded-pill">Ver Produtos</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
+                <div class="card linha-card border-0 shadow-lg rounded-4 overflow-hidden h-100 position-relative">
+                    <img src="/assets/image (1).jpg" class="card-img card-img-zoom" style="height: 350px; object-fit: cover;" alt="Linha 3D">
+                    <div class="card-img-overlay d-flex flex-column justify-content-end align-items-center p-4 text-center text-white">
+                        <h5 class="fw-bold mb-1">Linha 3D</h5>
+                        <p class="mb-3 small">Hidratação intensa</p>
+                        <a href="/listaProdutos.html" class="btn btn-outline-light btn-sm px-4 rounded-pill">Ver Produtos</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-white mt-auto py-4 border-top">
+        <div class="container text-center text-muted small">
+            01/2026 - SICS Web Project
+        </div>
+    </footer>
+
+</body>
+
+</html>
